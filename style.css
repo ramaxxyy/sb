@@ -1,6 +1,6 @@
 .about{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
   background-color: lightblue;
   }
   
@@ -11,9 +11,11 @@
   }
   
   .skate {
+      display: flex;
+      justify-content: center;
   margin-top: 10px;
   float: left;
-  width: 400px;
+  width: 500px;
   height: 390px;
   }
   
@@ -29,11 +31,14 @@
   }
 
   .all {
-      font-family: ;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: xx-large;
   }
 
   .check {
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
       font-size: xx-large;
   }
 
@@ -49,8 +54,11 @@
   }
 
 .skate3 {
+    display: flex;
+    justify-content: center;
     width: 500px;
-    height: 400px;
+    height: 390px;
+    margin-bottom: 10px;
 }
 
 .look{
